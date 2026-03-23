@@ -7,7 +7,7 @@ import tempfile
 import json
 from datetime import datetime
 
-# --- Setup ---
+# --- Setup --- test
 DB_PATH = os.path.join(tempfile.gettempdir(), "expenses.db")
 
 mcp = FastMCP("ExpenseTracker")
